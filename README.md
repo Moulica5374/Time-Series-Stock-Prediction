@@ -1,22 +1,22 @@
 # Time-Series-Stock-Prediction
 Stock price forecasting with ARIMA &amp; SARIMA complete time series workflow with stationarity tests, decomposition and model evaluation
 
-# 📈 Stock Price Prediction using ARIMA & SARIMA
+# Stock Price Prediction using ARIMA & SARIMA
 
-## 🔎 Overview
+## Overview
 This project demonstrates how to forecast stock prices using **ARIMA** (AutoRegressive Integrated Moving Average) and **SARIMA** (Seasonal ARIMA) models.  
 The notebook walks through **data preparation, stationarity testing, decomposition, model fitting, and forecasting** — with explanations for why each step matters.
 
 ---
 
-## ⚙️ Why ARIMA and SARIMA?
+## Why ARIMA and SARIMA?
 - **ARIMA** is effective for time series that exhibit **trend** but no clear seasonal pattern.  
 - **SARIMA** extends ARIMA by adding a **seasonal component**, making it suitable for series with **recurring cycles** (e.g., yearly, monthly, or weekly patterns).  
 - Stock data often contains both **trend** (long-term growth/decline) and **seasonality** (recurring cycles), so comparing ARIMA vs. SARIMA helps evaluate which captures the dynamics better.
 
 ---
 
-## 🛠️ Workflow
+##  Workflow
 
 ### 1. **Load the Data**
 We start by importing stock price data (daily closing prices).  
@@ -91,12 +91,13 @@ If p-value > 0.05 → series is not stationary → apply differencing/log transf
 While stock markets are noisy, these models help uncover underlying structure.
 
 
-Tech Stack
+## **Tech Stack**
 
-Python 
+- Python 
 
-Pandas, NumPy (data processing)
+- Pandas, NumPy (data processing)
 
-Statsmodels (ARIMA, SARIMA, decomposition)
+- Statsmodels (ARIMA, SARIMA, decomposition)
 
-Matplotlib (visualization)
+- Matplotlib (visualization)
+- Statistics
